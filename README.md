@@ -1,0 +1,1 @@
+This repository demonstrates a common yet often overlooked HTML/JavaScript error.  The bug lies in attempting to manipulate a DOM element before the browser has fully parsed and rendered the HTML.  The solution involves using the DOMContentLoaded event to ensure that the script executes only after the page is fully loaded.
